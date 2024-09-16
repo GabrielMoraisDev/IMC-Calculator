@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Adicione esta regra para aplicar a cor de fundo padrão e a cor de fundo do tema escuro */
+body {
+  @apply bg-slate-100 dark:bg-gray-900 duration-300;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
