@@ -39,7 +39,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center bg-slate-100 dark:bg-slate-800 h-screen">
+    <div className="flex flex-col items-center justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
 
       <div className="
         text-center m-auto text-2xl dark:text-slate-200 text-slate-600 flex justify-center items-center duration-300 my-5">
